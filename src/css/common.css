@@ -1,0 +1,42 @@
+:root{
+  --blue-haze: #c6bfd8;
+  --butterfly-bush: #655093;
+  --dolphin: #695e7e;
+  --heavy-metal: #2c2c2c;
+  --purple-heart: #6032bd;
+  --purple-mountains-majesty: #9788bf;
+  --snuff: #ddd9e8;
+  --sonic-silver: #747474;
+  --true-v: #907ad6;
+  --white: #ffffff;
+  --white-lilac: #faf8fe;
+ 
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-sm: 14px;
+  --font-size-xs: 12px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 21px;
+  --font-size-xxxl: 38px;
+  --font-size-xxxxl: 44px;
+ 
+  --font-family-nunito: "Nunito", Helvetica;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.dashboard-layout{
+  background-color: #e9dfdf8a;
+  min-height: 100vh;
+}
+
+button{
+  border: 0;
+}
+
+ul{
+  list-style: none;
+}

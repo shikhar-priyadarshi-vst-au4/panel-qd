@@ -1,0 +1,39 @@
+.qd-sidebar{
+    background-color: var(--white);
+    width: 80%;
+    height: calc(100vh - 120px);
+    margin : 1rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+}
+
+.qd-sidebar .qd-sidebar-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.qd-sidebar-link{
+    padding: 1rem 0.5rem;
+    color: var(--true-v);
+    font-size: var(--font-size-sm);
+    font-weight: 300;
+}
+
+.qd-sidebar-bottom{
+    position: absolute;
+    bottom: 10px;
+    left: 14px;
+}
+
+.qd-sidebar-bottom-link{
+    padding: 4px;
+    color: var(--true-v);
+    font-size: var(--font-size-xs);
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+
+.qd-sidebar-link:hover{
+    background-color: var(--white-lilac);
+}

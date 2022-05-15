@@ -1,0 +1,23 @@
+.card{
+ background-color: var(--white);
+ border-radius: 0.5rem;
+ min-height: 200px;
+ padding: 1rem;
+ box-sizing: border-box;
+}
+
+.card .card-header{
+  height: 30px;
+}
+
+.card .card-subheader{
+
+}
+
+.card .card-content{
+
+}
+
+.card .card-footer{
+
+}

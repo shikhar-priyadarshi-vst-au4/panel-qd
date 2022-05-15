@@ -1,0 +1,25 @@
+.qd-btn-icon{
+    width: 1.6rem;
+    height: 1.6rem;
+    padding: 4px;
+    overflow: hidden;
+    display: block;
+}
+
+.qd-link{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.qd-dot{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.qd-link:hover .qd-dot:first-child{
+    background-color: var(--true-v);
+}

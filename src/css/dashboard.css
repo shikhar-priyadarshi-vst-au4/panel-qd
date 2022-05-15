@@ -1,0 +1,109 @@
+.dashboard-col{
+    margin: 1.2rem 0;
+}
+
+.cash-header{
+    color: var(--true-v);
+    font-size: var(--font-size-sm);
+}
+
+.cash-sub-header{
+    font-size: var(--font-size-xxxl);
+    font-weight: 300;
+    color: var(--purple-heart);
+    margin-bottom: 10px;
+}
+
+.cash-content .cash-content-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.cash-content-list .cash-content-list-items{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-size: var(--font-size-sm);
+   font-weight: 300;
+   color: var(--sonic-silver);
+   padding: var(--font-size-xs) 0;
+}   
+
+.cash-content-list .cash-content-list-items:not(:last-child){
+    border-bottom: 1px solid var(--snuff);
+}
+
+.stats-card{
+    margin-bottom: 10px;
+    font-size: var(--font-size-sm);
+    font-weight: 300;
+    color: var(--sonic-silver);
+}
+
+.transfer-header{
+    color: var(--true-v);
+    font-size: var(--font-size-sm);
+}
+
+.transfer-header  .transfer-filters{
+    gap: 10px;
+}
+
+.transfer-sub-header .transfer-btn{
+    color: var(--white);
+    background-color: var(--true-v);
+    padding: 4px;
+    margin-right: 0.5rem;
+    border-radius: 4px;
+    opacity: 0.5;
+}
+
+.transfer-sub-header .transfer-active{
+    opacity: 1;
+}
+
+.transfer-filters .qd-dropdown{
+    border: 1px solid var(--blue-haze);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.transfer-filters .qd-dropdown-label{
+    color: var(--sonic-silver) !important;
+    font-size: var(--font-size-xs) !important;
+}
+
+#accounts, #hours{
+    position: absolute;
+    bottom: 0; 
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    margin: 4px;
+    cursor: pointer;
+}  
+
+.transfer-beneficiary div:last-child{
+    font-size: 11px;
+    color: var(--snuff);
+}
+/* .transfer-account{
+
+}
+.transfer-date{
+
+}
+.transfer-next{
+
+}
+.transfer-amount{
+
+} */
+
+
+.invoice-btn{
+    border-radius: 1.8rem;
+    padding: 8px 20px;
+    color: var(--white);
+    background-color: var(--true-v);
+}
